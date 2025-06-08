@@ -4,6 +4,8 @@
 /node_modules
 /.pnp
 .pnp.*
+
+# Yarn (optional)
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
@@ -16,6 +18,7 @@
 # next.js
 /.next/
 /out/
+build/
 
 # production
 /build
@@ -39,3 +42,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Tailwind cache
+.tailwind/
+.vscode/
+
+# Next.js build outputs
+.next/
+out/
+
+# IDE settings (optional)
+.vscode/
+
