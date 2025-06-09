@@ -56,3 +56,6 @@ out/
 
 
 /src/generated/prisma
+
+/prisma/migrations/
+/prisma/dev.db
