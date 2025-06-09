@@ -54,3 +54,5 @@ out/
 # IDE settings (optional)
 .vscode/
 
+
+/src/generated/prisma
